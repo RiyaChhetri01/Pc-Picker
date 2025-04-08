@@ -1,0 +1,94 @@
+.container {
+  padding: 2rem;
+  text-align: center;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.card {
+  background-color: #f4f4f4;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.category {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
+
+.dropdown {
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  width: 100%;
+  font-size: 1rem;
+}
+
+.summary {
+  margin-top: 2rem;
+}
+
+.resetBtn {
+  margin-top: 1rem;
+  padding: 0.7rem 1.5rem;
+  background-color: #e63946;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.resetBtn:hover {
+  background-color: #d62828;
+}
+
+.pcImageContainer {
+  margin-top: 2rem;
+}
+
+.pcImage {
+  max-width: 500px;
+  width: 100%;
+  height: auto;
+  margin-top: 1rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.2);
+}
+
+.pcImageContainer {
+  margin-top: 2rem;
+  text-align: center;
+  background-color: #f5f5f5;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.pcImage {
+  width: 400px;
+  max-width: 90%;
+  border-radius: 12px;
+  margin-top: 1rem;
+}
+
+.buildTitle {
+  font-size: 1.8rem;
+  color: #333;
+}
+
+.description {
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  color: #555;
+}
