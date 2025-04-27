@@ -1,4 +1,4 @@
-
+#here  is the breif:
 # 🖥️ PC Picker
 
 A web-based PC component selection app where users can pick various hardware components like CPU, GPU, RAM, and Storage. Built using **React**, with sleek animations powered by **Framer Motion**.
